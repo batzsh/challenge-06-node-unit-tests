@@ -6,13 +6,9 @@
   "type": "postgres",
   "host": "localhost",
   "port": 5432,
-  "database": "fin_api",
-  "entities": [
-    "./src/modules/**/entities/*.ts"
-  ],
-  "migrations": [
-    "./src/database/migrations/*.ts"
-  ],
+  "database": "unit_tests_challenge",
+  "entities": ["./src/modules/**/entities/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
   "cli": {
     "migrationsDir": "./src/database/migrations"
   }
